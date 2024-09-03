@@ -32,8 +32,8 @@ body{
 
 .Logo_namebrand img {
     margin-right: 20px; 
-    height: 30;
-    width: 30px;
+    height: 40px;
+    width: 100px;
 }
 
 .top_bar nav{
@@ -92,7 +92,7 @@ body{
 
 .containerimg .shopbtn {
     position: absolute;
-    top: 60%;
+    top: 62%;
     left: 17%;
     padding: 20px 30px;
     border: 1px solid black;
