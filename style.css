@@ -1,0 +1,156 @@
+body{
+    margin: 0px;
+    background-color:gainsboro;
+}
+
+ img,h3, nav, a{
+    margin: 0px;
+ }
+
+
+
+.top_bar{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(255, 255, 255);
+    padding: 25px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.603);
+    align-items: center;
+    box-shadow: 4px 4px 4px 3.5px rgba(150, 144, 144, 0.301);
+}
+
+.Logo_namebrand {
+    margin-left: 12%;
+    display: flex;
+    align-items: center;
+    
+}
+
+.Logo_namebrand h3{
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Logo_namebrand img {
+    margin-right: 20px; 
+    height: 30;
+    width: 30px;
+}
+
+.top_bar nav{
+    margin-right: 12%;
+ 
+}
+
+.top_bar nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    position: relative;
+    display: inline-block;
+}
+
+.top_bar nav a::after {
+    content: '';
+    position: absolute;
+    margin-top: 5px;
+    height: 2px;
+    width: 0;
+    left: 50%;
+    display: block;
+    background: rgb(0, 0, 0);
+    transition: width 0.2s ease 0s, left 0.2s ease 0s;
+}
+
+.top_bar nav a:hover::after {
+    width: 100%;
+    left: 0;
+    background: rgb(214, 157, 0); 
+}
+
+
+.top_bar nav i{
+    margin: 0 10px;
+    font-size: 20px;
+}
+
+
+
+
+.containerimg {
+    position: relative;
+    width: 100%;
+    height: auto;
+    
+  
+}
+
+.containerimg img {
+    width: 100%;
+    height: 100%;
+}
+
+.containerimg .shopbtn {
+    position: absolute;
+    top: 60%;
+    left: 17%;
+    padding: 20px 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: fantasy;
+    letter-spacing: 3px;
+    color: #212121;
+ z-index: 1;
+ background: #e8e8e8;
+ -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+ box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+ transition: all 250ms;
+ overflow: hidden;
+}
+
+.containerimg .shopbtn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 5px;
+    background-color: #212121;
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 350ms
+   }
+
+   
+
+
+.containerimg .shopbtn:hover{
+    color: #e8e8e8;
+}
+
+.containerimg .shopbtn:hover::before {
+    width: 100%;
+   }
+
+
+.containerimg p{
+    position: absolute;
+    top: 25%;
+    left: 17%;
+    line-height: 1.5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+}
+
+.containerimg strong{
+    text-transform: uppercase;
+    font-size: 35px;
+}
+
+.containerimg span{
+    color: rgb(214, 157, 0); ;
+}
+
