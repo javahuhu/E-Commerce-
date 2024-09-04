@@ -1,6 +1,6 @@
 body{
     margin: 0px;
-    background-color:gainsboro;
+    background-color:rgb(255, 255, 255);
 }
 
  img,h3, nav, a{
@@ -14,7 +14,6 @@ body{
     justify-content: space-between;
     background-color:rgb(255, 255, 255);
     padding: 25px;
-    border-bottom: 2px solid rgba(0, 0, 0, 0.603);
     align-items: center;
     box-shadow: 4px 4px 4px 3.5px rgba(150, 144, 144, 0.301);
 }
@@ -32,12 +31,20 @@ body{
 
 .Logo_namebrand img {
     margin-right: 20px; 
-    height: 40px;
-    width: 100px;
+    height: 60px;
+    width: 150px;
 }
 
 .top_bar nav{
-    margin-right: 12%;
+    top: 3%;
+    left: 65%;
+    margin-right: 10%;
+
+ 
+}
+
+.top_bar nav i:hover{
+   color: rgb(214, 157, 0);
  
 }
 
@@ -81,6 +88,7 @@ body{
     position: relative;
     width: 100%;
     height: auto;
+    margin-top: 6%;
     
   
 }
@@ -98,7 +106,7 @@ body{
     border: 1px solid black;
     border-radius: 10px;
     font-size: 20px;
-    font-family: fantasy;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     letter-spacing: 3px;
     color: #212121;
  z-index: 1;
@@ -151,6 +159,110 @@ body{
 }
 
 .containerimg span{
-    color: rgb(214, 157, 0); ;
+    color: rgb(214, 157, 0); 
 }
+
+#new .newproducts{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+
+
+#new .newproducts img{
+    height: 450px;
+    width: 450px;
+    margin: 0 15px 3rem;
+    display: block;
+}
+
+
+#new .details{
+    position: absolute;
+    width: 100%;
+    top:67%;
+    left: 15%;
+    
+}
+
+#new .details h2{
+    color: rgb(0, 0, 0); 
+}
+
+#new .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 6.2%;
+    height: 450px;
+    width: 450px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(0, 0, 0, 0.445) ;
+  
+}
+
+#new .one:hover .overlay {
+    opacity: 1;
+    background-color: rgba(214, 157, 0, 0.438); 
+
+  }
+
+#new .btnshop1{
+    border: none;
+    position: absolute;
+    top: 30%;
+    left:42%;
+    background: none;
+    font-size: 70px;
+ outline: none;
+    color: rgb(0, 0, 0);
+
+}
+
+
+
+#new .btnshop1:hover{
+    color: whitesmoke;
+ 
+}
+
+#new .txt{
+        position: absolute;
+        width: 94.6%;
+        top: 76.9%;
+        left: 6.3%;
+        color:rgb(255, 255, 255);
+        font-family: "Arsenal", sans-serif;
+        font-weight: 400;
+        letter-spacing: 2px;
+       
+        
+        
+}
+
+#new .txt:hover{
+    opacity: 0;
+}
+
+#featured h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#new .txt{
+    background-color: rgba(0, 0, 0, 0.466);
+    padding: 10px 20px;
+}
+
+
+
+
+
+
+
+
+
 
