@@ -1,7 +1,7 @@
 body{
     margin: 0px;
     background-color:rgb(255, 255, 255);
-    height: 100%;
+  
 }
 
  img,h3, nav, a{
@@ -301,7 +301,7 @@ body{
 
 .fitem1 h3 {
     text-align: center; /* Keep the text centered */
-    top: -10%;
+    top: -8%;
     position: relative;
     margin: 0; /* Remove default margins to better control spacing */
 }
