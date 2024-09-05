@@ -1,6 +1,7 @@
 body{
     margin: 0px;
     background-color:rgb(255, 255, 255);
+    height: 100%;
 }
 
  img,h3, nav, a{
@@ -175,6 +176,7 @@ body{
     width: 450px;
     margin: 0 15px 3rem;
     display: block;
+    
 }
 
 
@@ -213,10 +215,10 @@ body{
     border: none;
     position: absolute;
     top: 30%;
-    left:42%;
+    left:43%;
     background: none;
-    font-size: 70px;
- outline: none;
+    font-size: 60px;
+    outline: none;
     color: rgb(0, 0, 0);
 
 }
@@ -224,7 +226,7 @@ body{
 
 
 #new .btnshop1:hover{
-    color: whitesmoke;
+    color: rgb(255, 255, 255);
  
 }
 
@@ -256,6 +258,77 @@ body{
     background-color: rgba(0, 0, 0, 0.466);
     padding: 10px 20px;
 }
+
+.featured_items {
+    display: flex; /* Aligns the child containers next to each other */
+    flex-wrap: wrap; /* Ensures items wrap to a new row if there's not enough space */
+    left: -25%;
+}
+
+
+ .container{
+  width: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.card {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 4px 10px 5px rgba(138, 138, 138, 0.479);
+    top: 0;
+    left: 0;
+    height: 300px;
+    width: 225px;
+    border-radius: 5px;
+}
+
+
+.fitem1 img{
+    height: 250px;
+    top: -50px;
+    width: 200px;
+    position: relative;
+    left: 11.5px;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+.fitem1 img:hover{
+    transform: translateY(-20px)
+    
+}
+
+.fitem1 h3 {
+    text-align: center; /* Keep the text centered */
+    top: -10%;
+    position: relative;
+    margin: 0; /* Remove default margins to better control spacing */
+}
+
+ .star{
+    top: -13%;
+    position: relative;
+    left: 20px;
+    gap: 2px;
+    left:35%;
+    color: black;
+    
+}
+/* Option for hiding when hovering an image it will hide the star 
+.container:hover .fitem1 p{
+    opacity: 0;
+}
+*/
+
+/* Option for hiding when hovering an image it will hide the text
+.container:hover .fitem1 h3{
+    opacity: 0;
+}
+    */
+
+
+
 
 
 
