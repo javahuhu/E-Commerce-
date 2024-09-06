@@ -328,7 +328,14 @@ body{
 @media (max-width: 1280px){
     .col-lg-4 {
         flex: 0 0 30%; /* 100% / 4 columns = 25% */
-        width: auto;
+        max-width: 60%;
+    }
+}
+
+@media (max-width: 576px) {
+    .col-12 {
+        flex: 0 0 100%; /* 100% / 1 column = 100% */
+        max-width: 100%;
     }
 }
 
