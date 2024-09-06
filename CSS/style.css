@@ -1,6 +1,7 @@
 body{
     margin: 0px;
     background-color:rgb(255, 255, 255);
+    overflow-x: hidden;
   
 }
 
@@ -97,6 +98,7 @@ body{
 .containerimg img {
     width: 100%;
     height: 100%;
+
 }
 
 .containerimg .shopbtn {
@@ -295,9 +297,14 @@ body{
 }
 
 .fitem1 img:hover{
-    transform: translateY(-20px)
+    transform: translateY(-20px);
+    
     
 }
+
+
+
+
 
 .fitem1 h3 {
     text-align: center; /* Keep the text centered */
@@ -315,6 +322,18 @@ body{
     color: black;
     
 }
+
+
+/* For screens between 992px and 1280px */
+@media (max-width: 1280px){
+    .col-lg-4 {
+        flex: 0 0 30%; /* 100% / 4 columns = 25% */
+        width: auto;
+    }
+}
+
+
+
 /* Option for hiding when hovering an image it will hide the star 
 .container:hover .fitem1 p{
     opacity: 0;
